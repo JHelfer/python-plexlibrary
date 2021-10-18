@@ -60,12 +60,12 @@ if __name__ == '__main__':
     Trakt.base_url = 'http://api.staging.trakt.tv'
  
     Trakt.configuration.defaults.app(
-        id=os.environ.get('APP_ID')
+        id=os.environ.get('Python MediaLibrary')
     )
  
     Trakt.configuration.defaults.client(
-        id=os.environ.get('CLIENT_ID'),
-        secret=os.environ.get('CLIENT_SECRET')
+        id=os.environ.get('661ed081a80cd8f085839f99fe7f8e91e11a5a66359dcfd9220b737d221a9a90'),
+        secret=os.environ.get('661ed081a80cd8f085839f99fe7f8e91e11a5a66359dcfd9220b737d221a9a90')
     )
  
     # Start application
